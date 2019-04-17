@@ -27,7 +27,7 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // スコアがハイスコアより大きければ
+        // スコアがハイスコアより大きければハイスコアにスコアを代入
         if (highScore < score)
         {
             highScore = score;

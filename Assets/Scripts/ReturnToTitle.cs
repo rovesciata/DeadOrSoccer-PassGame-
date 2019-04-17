@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class ReturnToTitle : MonoBehaviour
 {
-
     // 時間設定
     public int timeCount;
 
@@ -16,6 +15,7 @@ public class ReturnToTitle : MonoBehaviour
         Invoke("GoTitle", timeCount);
     }
 
+    // タイトル画面に移動
     void GoTitle()
     {
         SceneManager.LoadScene("GameStart");
